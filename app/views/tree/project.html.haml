@@ -1,0 +1,35 @@
+.row{:style => "height:70px"}
+.row
+  .col-sm-5
+    %textarea{:rows => "35",
+      :style => "width:100%"}
+      Controller 내용이 있고 그대로 따라적는 부분.
+  .col-sm-5
+    %textarea{:rows => "35",
+      :style => "width:100%"}
+      VIEW HTML 내용이 있고 그대로 따라적는 부분.
+      ='<html>'
+      ='<html>'
+
+  .col-sm-2
+    .list-group
+      %a.list-group-item.active{href: "#"}
+        %h4.list-group-item-heading H1이란?
+        %p.list-group-item-text H1에 대한 설명입니다.
+      %a.list-group-item{href: "#"}
+        %h4.list-group-item-heading P
+        %p.list-group-item-text P에 대한 설명입니다.
+      %a.list-group-item{href: "#"}
+        %h4.list-group-item-heading img
+        %p.list-group-item-text img에 대한 설명입니다.
+
+  %p 
+    결과보기를 하면 모달이 뜨고,
+    %br
+    자랑하기를 하면 자신이 짠 코드가 다른 사람에게 자랑이 된다.
+    %br
+    코드를 그대로 다 따라 적으면 수정하기 버튼이 생긴다.
+    %br
+  %button 결과보기
+  %button 자랑하기
+  %button 수정하기(완료시)

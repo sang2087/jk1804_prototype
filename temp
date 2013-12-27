@@ -1,0 +1,3 @@
+rails g bootswatch:install slate
+rails g bootswatch:import slate
+rails g bootswatch:layout slate
